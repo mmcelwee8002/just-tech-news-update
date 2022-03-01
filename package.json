@@ -1,0 +1,30 @@
+{
+  "name": "hacker-news-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "seeds": "node seeds/index.js",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.3",
+    "express-handlebars": "^3.1.0",
+    "handlebars": "^4.7.7",
+    "mysql2": "^2.3.3",
+    "sequelize": "^5.22.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmcelwee8002/just-tech-news-update.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mmcelwee8002/just-tech-news-update/issues"
+  },
+  "homepage": "https://github.com/mmcelwee8002/just-tech-news-update#readme"
+}
